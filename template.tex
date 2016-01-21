@@ -1,6 +1,393 @@
-\documentclass{article}
-
+\documentclass[12pt]{article}
+\usepackage{times}
+\usepackage{indentfirst}
+\usepackage[a4paper,left=1.5in,right=1in,top=1in,bottom=1in,nohead]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage{ragged2e} % for justify
+\usepackage{titlesec}
+\usepackage{standalone}
+\setcounter{secnumdepth}{5}
+	
 \begin{document}
-  \title{abhishek}
-  \date{June 1994}
+
+\tableofcontents
+ \thispagestyle{empty}
+ \cleardoublepage
+
+\setcounter{page}{1}
+% This is the Introduction to my project
+\section{Introduction}\label{sec:Introduction}
+% This is the objective, need and organiztion
+
+
+\subsection{Objective}\label{subs:Objective}
+ \justify
+   A  rectangular microstrip antenna is a type of radio antenna with a low profile, which can be mounted on a flat surface. It consists of a flat rectangular sheet of metal, mounted over a larger sheet of metal called a ground plane.The two metal sheets together form a resonant piece of microstrip transmission line with a length of approximately one-half wavelength of the radio waves. The radiation mechanism arises from discontinuities at each truncated edge of the microstrip transmission line.These patch antennas are used as simple and for the widest and most demanding applications. Dual characteristics, circular polarizations, dual frequency operation, frequency agility, broad band width, feed line flexibility and beam scanning can be easily obtained from these patch antennas.
+
+ \justify
+  Rectangular Microstrip Patch Antenna with High Gain for 3.1 GHz - 10.6 GHz Applications development of low cost, minimal weight and low profile antennas that are capable of maintaining high performance over a wide spectrum of frequencies. This technological trend has focused much effort into the design of a microstrip patch antenna. The objective of this paper is to design, and fabricate an inset fed rectangular microstrip patch antenna.
+
+\subsection{Need}\label{sub:Need}
+ \justify
+   Microstrip patch antennas are increasing in popularity for use in wireless applications due to their low-profile structure. Therefore they are extremely compatible for embedded antennas in handheld wireless devices such as cellular phones, pagers etc... The telemetry and Square Rectangular Dipole Circular Triangular Circular Ring Elliptical communication antennas on missiles need to be thin and conformal and are often Microstrip patch antennas. Another area where they have been used successfully is in Satellite communication.
+
+ \justify
+   Microstrip patch antennas have a very high antenna quality factor (Q). Q represents the losses associated with the antenna and a large Q leads to narrow bandwidth and low efficiency. Q can be reduced by increasing the thickness of the dielectric substrate.
+
+ \justify
+   As per requirement many new shapes can replace the conventional shapes .There are many shapes in the field of microstrip patch antenna .A design of slots on the patch and making defected structure in the ground plane for improving the bandwidth as well as achieving the multiband operation which is the part of this project is very good for future aspects. All works has been performed in the thesis with the HFSS simulation software.
+
+\cleardoublepage
+
+\subsection{Organisation}\label{sub:Organisation}
+ \justify
+  \textbf{Chapter 1}
+
+      It contains the overall introduction to the rectangular microstrip patch antenna.In this chapter also concluded with the details of outline of the present report .\
+ \justify
+  \textbf{Chapter 2}
+
+      It is dedicated to literature survey which gives an overview about microstrip patch antenna based on various international publish papers on IEEE, google scholar etc.
+ \justify
+  \textbf{Chapter 3}
+
+      It is based on totally system modeling i.e. total description of technical parts related to topic.The basic parameters on which the selection and performance of an Antenna is characterize are bandwidth, Antenna polarization, Radiation , Beamwidth ,Pattern, Directivity, efficiency etc are described. All the popular feeding methods used in microstrip antenna with their significance are also discussed.
+ \justify
+  \textbf{Chapter 4}
+
+      It contains Advantages and Applications of Microstrip Patch Antenna.
+ \justify
+  \textbf{Chapter 5}
+
+      It contains the conclusion of the project report.
+
+% this is literature survey
+
+%
+\cleardoublepage
+ 
+\section{System Modeling}\label{sec:System Modeling}
+ \subsection{Property of Antenna}\label{sub:Property of Antenna}
+  \justify
+   A Microstrip or patch antenna is a low profile antenna that has a number of advantages  over other antennas it is lightweight, low cost, and easy to integrate with accompanying  electronics. While the antenna can be 3D in structure (wrapped around an object, for example),the elements are usually flat; hence their other name, planar antennas. Note that a planar antenna is not always a patch antenna.The figure 1.12 shows a patch antenna in its basic form: a flat plate on a ground plane. The center conductor of a coax serves as the feed probe to couple electromagnetic energy in and/or out of the patch. The electric field distribution of a rectangular patch in its fundamental mode is also shown
+
+   % this is image
+  \justify
+   The electric field is zero at the center of the patch, maximum (positive) at one side, and minimum (negative) on the opposite side. It should be mentioned that the minimum and maximum continuously change side according to the instantaneous phase of the applied signal. The electric field does not stop abruptly at the patch's periphery as in a cavity rather, the fields extend the outer periphery to some degree. These field extensions are known as fringing fields and cause the patch to radiate. Some popular analytic modeling techniques for patch antennas are based on this leaky cavity concept. Therefore, the fundamental mode of a rectangular patch is often denoted using cavity theory as the TM10 mode.
+ \justify
+   Since this notation frequently causes confusion, we will briefly explain it. TM stands for transversal  magnetic field distribution. This means that only three field components are considered instead of six. The field components of interest are: the electric field in the z direction, and the magnetic field components in x and y direction using a Cartesian coordinate system, where the x and y axes are parallel with the ground plane and the z axis is perpendicular. In general, the modes are designated as TMnmz. The z value is mostly omitted since the electric field variation is considered negligible in the z axis. Hence TMmn remains with n and m the field variations in x and y direction. The field variation in the y direction (impedance width direction) is negligible; thus m is 0. And the field has one minimum to maximum variation in the x direction (resonance length direction); thus n is 1 in the case of the fundamental. Hence the notation TM10.
+
+  \subsubsection{Dimensions}\label{sub:Dimensions}
+   \justify
+    The resonant length determines the resonant frequency and is about l/2 for a rectangular patch excited in its fundamental mode. The patch is, in fact, electrically a bit larger than its physical dimensions due to the fringing fields. The deviation between electrical and physical size is mainly dependent on the PC board thickness and dielectric constant.
+    A better approximation for the resonant length is:
+   \justify
+    This formula includes a first order correction for the edge extension due to the fringing fields, with:
+     \begin{itemize}
+       \item   L = resonant length
+       \item   λd = wavelength in PC board
+       \item λd = wavelength in PC board
+       \item λo = wavelength in free space
+       \item εr = dielectric constant of the PC board material
+
+     \end{itemize}
+
+     Other parameters that will influence the resonant frequency:
+
+     \begin{itemize}
+       \item Ground plane size
+       \item Metal (copper) thickness
+       \item  Patch (impedance) width
+     \end{itemize}
+
+    \subsubsection{Matching Impedance}\label{subp:Matching Impedance}
+     \justify
+      Looking at the current (magnetic field) and voltage (electrical field) variation along the  patch, the current is maximal at the center and minimal near the left and right edges, while the electrical field is zero in the center and maximal near the left and minimal near the right edges.  The figures below clarify these quantities.
+
+      % Here id figure
+	 \justify
+      From the magnitude of the current and the voltage, we can conclude the impedance is minimum (theoretically zero W) in the middle of the patch and maximum (typically around 200W, but depending on the Q of the leaky cavity) near the edges. Put differently, there is a point where the impedance is 50 W somewhere along the "resonant length" (x) axis of the element.
+
+      \subsubsection{Radiation Pattern}
+       \justify
+        The patch's radiation at the fringing fields results in a certain far field radiation pattern. This radiation pattern shows that the antenna radiates more power in a certain direction than another direction. The antenna is said to have certain directivity. This is commonly expressed in dB .An estimation of the expected directivity of a patch can be derived with ease. The fringing fields at the radiating edges can be viewed as two radiating slots placed above a ground plane. Assuming all radiation occurs in one half of the hemisphere, this results in a 3 dB directivity. This case is often described as a perfect front to back ratio; all radiation towards the front and no radiation towards the back. This front to back ratio is highly dependent on ground plane size and shape in practical cases. Another 3 dB can be added since there are 2 slots. The slots are typically taken to have a length equal to the impedance width (length according to the y axis) of the patch and a width equal to the substrate height. Such a slot typically has a gain of about 2 to 3 dB .This results in a total gain of 8 to 9 dB. The rectangular patch excited in its fundamental mode has a maximum directivity in the direction perpendicular to the patch (broadside). The directivity decreases when moving away from broadside towards lower elevations. The 3 dB beam width (or angular width) is twice the angle with respect to the angle of the maximum directivity, where this directivity has rolled off 3 16 dB with respect to the maximum directivity. An example of a radiation pattern can be found below. So far, the directivity has been defined with respect to an isotropic source and hence has the unit dBi. An isotropic source radiates an equal amount of power in every direction. Quite often, the antenna directivity is specified with respect to the directivity of a dipole. The  directivity of a dipole is 2.15 dBi with respect to an isotropic source. The directivity expressed with respect to the directivity of a dipole has dBd as its unit.
+
+        \subsubsection{Antenna Gain}
+         \justify
+	        Antenna gain relates the intensity of an antenna in a given direction to the intensity that would be produced by a hypothetical ideal antenna that radiates equally in all directions or isotropically and has no losses. Since the radiation intensity from a lossless isotropic antenna equals the power into the antenna divided by a solid angle of 4π ste radians, we can write the following equation:
+	
+	        The gain of a rectangular Microstrip patch antenna with air dielectric can be very roughly Estimated as follows. Since the length of the patch, half a wavelength, is about the same as the length of a resonant dipole, we get about 2 dB of gain from the directivity relative to the vertical axis of the patch. If the patch is square, the pattern in the horizontal plane will be directional, somewhat as if the patch were a pair of dipoles separated by a half-wave; this counts for about another 2-3 dB. Finally, the addition of the ground plane cuts off most or all radiation behind the antenna, reducing the power averaged over all directions by a factor of 2 (and thus increasing the gain by 3 dB). Adding this all up, we get about 7-9 dB for a square patch, in good agreement with more sophisticated approaches.
+
+        \subsubsection{Return Loss}\label{Return Loss}
+		 \justify
+          Return loss or reflection loss is the reflection of signal power from the insertion of a device in a transmission line or optical fiber. It is expressed as ratio in dB relative to the transmitted signal power. The return loss is given by:
+
+          % formula
+
+          Where is the power supplied by the source and is the power reflected.
+          If is the amplitude of the incident wave and  that of the reflected wave, then the return loss can be expressed in terms of the reflection coefficient г as:
+          
+          and the reflection coefficient г can be expressed as:
+
+          For an antenna to radiate effectively, the return loss should be less than −10 ??.
+
+          \subsubsection{Polarization}\label{sub:Polarization}
+           \justify
+            The plane wherein the electric field varies is also known as the polarization plane. The
+            basic patch covered until now is linearly polarized since the electric field only varies in one
+            direction. This polarization can be either vertical or horizontal depending on the orientation of the patch. A transmit antenna needs a receiving antenna with the same polarization for optimum operation. The patch mentioned yields horizontal polarization, as shown. When the antenna is rotated 90°, the current flows in the vertical plane, and is then vertically polarized. A large number of applications, including satellite communication, have trouble with linear polarization because the orientation of the antennas is variable or unknown. Luckily, there is another kind of polarization circular polarization. In a circular polarized antenna, the electric field varies in two orthogonal planes (x and y direction) with the same magnitude and a 90° phase difference. The result is the simultaneous excitation of two modes, i.e. the TM10 mode (mode in the x direction) and the TM01 (mode in the y direction). One of the modes is excited with a 90° phase delay with respect to the other mode. A circular polarized antenna can either be right hand circular polarized (RHCP) or left-hand circular polarized (LHCP). The antenna is RHCP when the phases are 0° and 90° for the antenna in the figure below when it radiates towards the reader, and it is LHCP when the phases are 0° and 90°.
+
+            \subsubsection{Bandwidth}
+			 \justify
+              Another important parameter of any antenna is the bandwidth it covers. Only impedance bandwidth is specified most of the time. However, it is important to realize that several definitions of bandwidth exist impedance bandwidth, directivity bandwidth, polarization bandwidth, and efficiency bandwidth. Directivity and efficiency are often combined as gain bandwidth.
+
+            \subsubsection{Impedance bandwidth/return loss bandwidth}\label{  Impedance bandwidth/return loss bandwidth}
+			  \justify
+                This is the frequency range wherein the structure has a usable bandwidth compared to a certain impedance, usually 50 Ω. The impedance bandwidth depends on a large number of
+                parameters related to the patch antenna element itself (e.g., quality factor) and the type of feed used. The plot below shows the return loss of a patch antenna and indicates the return loss bandwidth at the desired S11/VSWR (S11 wanted/VSWR wanted). The bandwidth is typically  limited to a few percent. This is the major disadvantage of basic patch antennas.
+
+                Important note: Different definitions of impedance bandwidth are used, such as:VSWR = 2:1 and other values, S11 values other than –10 dB, the maximum real impedance divided by the square root of two [Z(Re)/√2, bandwidth], etc. This tends to turn selecting the right antenna for a specific application into quite a burden.
+				\item
+                Directivity/gain bandwidth
+                This is the frequency range where in the antenna meets a certain directivity/gain
+                requirement (e.g., 1 dB gain flatness).
+                \item 
+                Efficiency bandwidth
+                This is the frequency range wherein the antenna has reasonable (application dependent)
+                radiation/total efficiency.
+                16
+                \item
+                Polarization bandwidth
+                This is the frequency range wherein the antenna maintains its polarization.
+
+              \subsubsection{Resonant Frequency}\label{sub:Resonant Frequency}
+               \justify
+	              The resonance frequency for the (1, 0) mode is given by
+	                               
+	                      Where c is the speed of light in vacuum. To account for the fringing of the cavity fields at the edges of the patch, the length, the effective length Le is chosen as
+	                                        Le= L + 2ΔL                                                  
+	                      The Hammerstad formula for the fringing extension is
+	
+	                                
+	                      Width of metallic patch (W)
+	                      Where,
+	                      \item
+	                        εreff = Effective dielectric constant
+                          \item
+	                        εr = Dielectric constant of substrate
+	                      \item
+	                        h = Height of dielectric substrate
+                           \item
+	                        W = Width of the patch
+	          \subsubsection{ Substrates Characteristics}
+	           \justify
+	            There are many substrates that can be used for the design of microstrip antennas, and their dielectric constants (Er) are usually in the range of 2.2 < Er < 12. Thick substrates are most desirable for antenna performance as their dielectric constants are in the lower end, which provide better efficiency, larger bandwidth, loosely bound fields for radiation into space (better radiation power). However, these are achieved at the expense of larger element size, increase in weight, dielectric loss, surface wave loss and extraneous radiations. Thin substrates with higher dielectric constants, on the other hand, are desirable for microwave circuitry because they require tightly bound fields to minimize undesired radiation and coupling, thus leading to smaller sizes. However, because of their greater losses, they are less efficient and have relatively smaller bandwidth . Since microstrip antennas are often integrated with other microwave circuitry, a compromise has to be reached between good antenna performance and circuit design. 
+	            
+	           \subsubsection{High Frequency Structure Simulator }
+	            \justify
+	                HFSS (High Frequency Structure Simulator) software is the industry-standard simulation tool for 3-D full-wave electromagnetic field simulation and is essential for the design of high-frequency and high-speed component design. This software automatically divides the geometric model into a large number of tetrahedron, where a single tetrahedron is a four-sided pyramid. This collection of tetrahedron is referred to as the finite element mesh. Each element can contain a different material. Therefore, the interface between two different materials must coincide with element boundaries. The value of a vector field quantity (such as the H-field or E-field) at points inside each tetrahedron is interpolated from the vertices of the tetrahedron. By representing field quantities in this way, the system can transform Maxwell's equations into matrix equations that are solved using traditional numerical methods. With HFSS, engineers can extract scattering matrix parameters (S, Y, Z parameters); visualize 3-D electromagnetic fields (near- and far-field). 
+	                
+	             \subsubsection{FR-4 Substrate}
+		           \justify
+		            FR-4 substrate is a very common and by far the most used substrate in consumer electronics market as it has a good quality-to-price ratio. It is mostly used where cost is more efficient than performance. FR-4 is a standard with many different distributors making many different FR-4 quality and property boards. It is made of woven fiber glass with an epoxy resin binder (binds the copper clad to the dielectric substrate) that is flame resistant.
+		           \justify
+		            The dielectric constant goes down the more the FR-4 PCB is reinforced with epoxy resin instead of fiber glass as this is not determined as a standardized parameter. 100 \% epoxy resin boards has a dielectric constant of 3.4 @ 1MHz.
+		           \justify
+		           	The FR-4 changes it’s dielectric constant along its area which makes it too unstable to mass produce precise antennas on it. Also, the FR-4 is has a higher loss at frequencies over 3GHz, because of the sensitivity of the cheap substrate. Other products are therefore recommended to perform better than FR-4 in RF applications. A highly recommended distributor is Rogers, who is a little more expensive but performs much better in RF applications. In the cellphone industry, companies uses higher quality FR-4 substrate because it is more cost efficient, but from only one manufacture so they can be sure of the quality and properties when mass producing. The performance is typically around -13 dBm.
+		        
+		        \subsubsection{PCB Fabrication}
+		         \justify
+		          Various techniques are available for fabrication of micro strip patch antenna. If the substrate is flexible, conformal antennas are possible. Feed line and matching networks are fabricated along with antenna structure. The fabrication of strip antenna was designed using Auto CAD. Etching is done with the standard photolithographic processes. In order to transfer the mask image on electro plated copper PCB board photolithography technique was used. The cut size pieces of PCB sheets were cleaned to the surface impurities using organic solvents and then dried with hot air gun before coating the positive photo resist (PPR) on it. The PPR coated substrate was pre-baked in an oven at 90 degrees to remove the solvent and stuffing the film. The baked substrate was exposed on indigenously developed mask aligner with inbuilt exposure system and mask as prepared earlier . The accuracy of etching process also ensures uniformity of different parts over a production run.
+		         \subsubsection{ Testing of Antenna}
+		          \justify 
+		           After Fabrication the antenna is tested for measurement of VSWR and return loss. As this project is based with only one datasheet of surface mounted device component so, it will obtain the desired result for the above parameter. The antenna parameter VSWR and Return loss is tested using Network Analyzer. Network analyzers incorporate new technologies and features to provide better performance and capabilities for antenna. 
+		           
+		           \begin{itemize}
+		           	\item High sensitivity
+		           	\item Fast data transfers with COM/DCOM
+		           	\item LAN connectivity
+		           	\item Flexibility and accuracy
+		           	\item Pulsed measurements
+		           	\item Security
+		           \end{itemize}
+		          \cleardoublepage
+		          \subsection{Study of Different Gain and Bandwidth Enhancement Techniques}
+		           \justify
+		            The impedance frequency bandwidth of a microstrip antenna depends primarily on both the thickness and the dielectric permittivity of the substrate. A thick substrate with a low dielectric permittivity can increase the bandwidth of the printed patch. Both these selections could be a solution of the problem of bandwidth enhancement if the thickness of the substrate did not - cause difficulties in integration of the antenna with other microwave circuits, and  bcause some other problems such as the surface wave propagation and the large inductive image part of the input impedance of the antenna, which makes its resonance unfeasible. 
+			            \subsubsection{ Substrate Selection}
+			             \justify
+			              The impedance frequency bandwidth of a microstrip antenna depends primarily on both the thickness and the dielectric permittivity of the substrate. A thick substrate with a low dielectric permittivity can increase the bandwidth of the printed patch. Both these selections could be a solution of the problem of bandwidth enhancement if the thickness of the substrate did not - cause difficulties in integration of the antenna with other microwave circuits, and  bcause some other problems such as the surface wave propagation and the large inductive image part of the input impedance of the antenna, which makes its resonance unfeasible.\\ 
+			           \subsubsection{Modified Shape Patches}
+			             \justify
+			              The regular MSA configurations, such as rectangular and circular patches have been modified to rectangular ring and circular ring, to enhance the BW. The larger BW is because of a reduction in the quality factor Q of the patch resonator, which is due to less energy stored beneath the patch and higher radiation.\\
+			            \subsubsection{ Planar Multi-resonator Configurations}
+	 			            \justify
+				             The planar stagger–tuned coupled multiple resonators yield wide BW in the same way as in the case of multistage tuned circuits. Several configurations are available yielding BW of 5–25 \%. Various parasitic patches like narrow strips, shorted quarter-wavelength rectangular patches, and rectangular resonator patches have been gap-coupled to the central-fed rectangular patch .These planar multi-resonator configurations yield broad BW.
+				         \subsubsection{Multilayer Configurations}
+				          \justify
+				            In the multilayer configuration, two or more patches on different layers of the dielectric substrate are stacked on each other. Based on the coupling mechanism, these configurations are categorized as electromagnetically coupled or aperture-coupled MSA.
+				            Various direct-coupled multi-resonators are:
+				            \begin{itemize}
+				            	\item    RMSAs direct-coupled along radiating edges,
+				            	\item    RMSAs direct-coupled along non-radiating edges, 
+				            \end{itemize}
+				          \subsubsection{Electromagnetically Coupled MSAs}
+				            \justify
+				              In the electromagnetically coupled MSA, one or more patches at the different dielectric layers are electromagnetically coupled to the feed line located at the bottom dielectric layer.
+				              Alternatively, one of the patches is fed by a coaxial probe and the other patch is electromagnetically coupled. Either the bottom or top patch is fed with a coaxial probe. The patches can be fabricated on different substrates, and accordingly the patch dimensions are to be optimized so that the resonance frequencies of the patches are close to each other to yield broad BW.
+				            \subsubsection{ Stacked Multi-resonator MSAs}
+				              \justify
+				                The planar and stacked multi-resonator techniques are combined to further increase the BW and gain. A probe-fed single rectangular or circular patch located on the bottom layer has been used to excite multiple rectangular or circular patches on the top layer, respectively. Besides increasing the BW, these configurations also provide an increase in gain as well. \\
+				                
+				                \cleardoublepage
+	   		                	Following are Different types of shapes embedded to enhance the BW and gain 
+	   		                	
+				                \begin{itemize}
+
+				                	\item Symmetric Rectangular slots
+				                	\item Two square slots 
+				                	\item Symmetric trapezoidal slot 
+				                	\item V-shaped slots
+				                	\item Shifted Elliptical Slot
+				                	
+				                \end{itemize}
+				               \subsubsection{ Design of  Rectangular Patch Antenna for UWB Application}
+				                \justify
+				                 The three essential parameters for the design of a rectangular Microstrip Patch Antenna, Frequency of operation (fo). The resonant frequency of the antenna must be selected appropriately. The Mobile Communication Systems uses the frequency range from 2100-5600 MHz. Hence the antenna designed must be able to operate in this frequency range. The lowest order mode TM01 resonates when the effective length of the rectangular patch is half wavelength. Radiation occurs from the fringing fields. For the principal E-plane, the dimensions of the patch along its length have been extended on each end by a distance ΔL, as show in Figure , which is a function of the effective dielectric constant and the width-to-height ratio (W/h).
+				                 Theoretical design:
+				                 Step 1: Calculation of the Width (W): 
+				                 The width of the Microstrip patch antenna is given as: 
+				                 					                                           
+				                 Where
+				                     c - Free space velocity of light, 3 x 108 m/s
+				                 fr - Frequency of operation
+				                 εr - dielectric constant
+				                 
+				                 Step 2: Calculation of Effective dielectric constant (εreff): 
+				                 The effective dielectric constant is:
+				                  		  
+				                 Where;
+				                        εr - Dielectric constant
+				                 h - Height of dielectric substrate
+				                 W - Width of the patch
+				                 Step 3: Calculation of the Effective length (Leff):  
+				                 The effective length is:
+				                  					      
+				                 Where;
+				                  c - Free space velocity of light, 3 x 108 m/s
+				                 fr - frequency of operation
+				                 εreff - effective dielectric constant
+				                 
+				                 Step 4: Calculation of actual length of patch (L):  
+				                 The actual length is obtained by:
+				                 L = Leff - 2∆L					
+				                 Where,
+				                 L 	= Actual length of patch.
+				                 Leff 	 = Effective length.
+				                 ∆L 	= small difference between length.
+				                 
+				                 Step 5: Calculation of the length extension (∆L):  
+				                 The length extension is:
+				                 24
+				                 
+				                 Figure shows the simple rectangular patch antenna. 
+				                 The length, L= 35mm, 
+				                 Width w= 45mm,
+				                 Cut width= 10mm 
+				                 and cut width= 5mm, 
+				                 length of transmission line feed= 32mm, 
+				                 width of the feed= 3mm. 
+				                 The rectangular microstrip patch antenna designed on one side of the epoxy structure with εr = 4.4 and height from the ground plane= 1.6mm. 
+				                 
+				                
+				                 The simulated peak gains and efficiencies of the antennas from 1 to 17 GHz . It can be seen that all of the antennas have almost the same gain and efficiency, so again the slots do not have much effects on the performances throughout the entire operation band. The average gains of these antennas from 3.1to 10.6 GHz are about 2.8 dBi and the average efficiencies are about 0.88
+				                 
+				                \subsubsection{Feed Techniques}
+				                  \justify
+				                   Microstrip patch antennas can be fed by a variety of methods. These methods can be
+				                   classified into two categories- contacting and non-contacting. In the contacting method, the RF power is fed directly to the radiating patch using a connecting element such as a microstrip line. In the non-contacting scheme, electromagnetic field coupling is done to transfer power between the microstrip line and the radiating patch . The four most popular feed techniques used are the microstrip line, coaxial probe (both contacting schemes), aperture coupling and proximity coupling (both non-contacting schemes).
+				                   \paragraph{ Microstrip Line Feed}
+				                    \justify
+				                     In this type of feed technique, a conducting strip is connected directly to the edge of the microstrip patch as shown in Figure 3.3. The conducting strip is smaller in width as compared to the patch and this kind of feed arrangement has the advantage that the feed can be etched on the same substrate to provide a planar structure.
+					               	The purpose of the inset cut in the patch is to match the impedance of the feed line to the patch without the need for any additional matching element. This is achieved by properlycontrolling the inset position. Hence this is an easy feeding scheme, since it provides ease of fabrication and simplicity in modeling as well as impedance matching. However as the thickness of the dielectric substrate being used, increases, surface waves and spurious feed radiation also increases, which hampers the bandwidth of the antenna . The feed radiation also leads to undesired cross polarized radiation
+					               \paragraph{ Coaxial Feed}
+					                \justify
+					                
+					                
+					                  The Coaxial feed or probe feed is a very common technique used for feeding Microstrip patch antennas. As seen from Figure 3.4, the inner conductor of the coaxial connector extends through the dielectric and is soldered to the radiating patch, while the outer conductor is connected to the ground plane.
+					                  
+					                  The main advantage of this type of feeding scheme is that the feed can be placed at any desired location inside the patch in order to match with its input impedance. This feed method is easy to fabricate and has low spurious radiation. However, a major disadvantage is that it provides narrow bandwidth and is difficult to model since a hole has to be drilled in the substrate and the connector protrudes outside the ground plane, thus not making it completely planar for thick substrates (h > 0.02λo). Also, for thicker substrates, the increased probe length makes the input impedance more inductive, leading to matching problems . It is seen above that for a thick dielectric substrate, which provides broad bandwidth.
+					                \paragraph{Aperture Coupled Feed}
+					                 \justify
+					                  In this type of feed technique, the radiating patch and the microstrip feed line are separated by the ground plane as shown in Figure 2.5. Coupling between the patch and the feed line is made through a slot or an aperture in the ground plane.
+					                  
+					                  The coupling aperture is usually centered under the patch, leading to lower cross-polarization due to symmetry of the configuration. The amount of coupling from the feed line to the patch is determined by the shape, size and location of the aperture. Since the ground plane separates the patch and the feed line, spurious radiation is minimized. Generally, a high dielectric material is used for bottom substrate and a thick, low dielectric constant material is used for the top substrate to optimize radiation from the patch . The major disadvantage of this feed technique is that it is difficult to fabricate due to multiple layers, which also increases the antenna thickness. This feeding scheme also provides narrow bandwidth.
+					                  
+					                 \paragraph{ Proximity Coupled Feed}
+					                  \justify
+					                   This type of feed technique is also called as the electromagnetic coupling scheme two dielectric substrates are used such that the feed line is between the two substrates and the radiating patch is on top of the upper substrate. The main advantage of this feed technique is that it eliminates spurious feed radiation and provides very high bandwidth (as high as 13 \%) , due to overall increase in the thickness of the microstrip patch antenna. This scheme also provides choices between two different dielectric media, one for the patch and one for the feed line to optimize the individual 
+					               \subsection{ Basic Principles of Operation}
+					                \justify
+					                 The  metallic  patch  essentially  creates  a  resonant  cavity,  where  the  patch  is  the  top  of  the cavity, the ground plane is the bottom of the cavity, and the edges of the patch form the sides of the cavity. The edges of the patch act approximately as an open-circuit boundary condition. Hence, the patch acts approximately as a cavity with perfect electric conductor on the top and bottom surfaces, and a perfect “magnetic conductor” on the sides. This point of view is very useful in analyzing the patch antenna, as well as in understanding its behavior. Inside the patch cavity the electric field is essentially z directed and independent of the z coordinate. Hence, the patch cavity modes are described by a double index (m, n). For the (m, n) cavity mode of the rectangular patch the electric field has the form
+					                 
+					                 Where L is the patch length and W is the patch width. The patch is usually operated in the (1,0) mode,  so  that  L  is  the  resonant  dimension,  and  the  field  is  essentially  constant  in  the y direction. The surface current on the bottom of the metal patch is then x directed, and is given by
+					                 
+					                 For  this  mode  the  patch  may  be  regarded  as  a  wide  microstrip  line  of  width  W,  having  a resonant  length  L  that  is  approximately  one-half  wavelength  in  the  dielectric.  The  current  is maximum  at  the  centre  of  the  patch,  x  =  L/2,  while  the  electric  field  is  maximum  at  the  two “radiating” edges x=0 and x=L. The width W is usually chosen to be larger than the length (W =1.5 L is typical) to maximize the bandwidth, since the bandwidth is proportional to the width. (The width should be kept less than twice the length, however, to avoid excitation of the (0, 2) mode .
+					                 At first glance, it might appear that the Rectangular Microstrip Patch Antenna will not be an effective radiator when the substrate is electrically thin,   However, the Q of the cavity increases as  h decreases (the radiation Q is inversely proportional to h). Hence, the amplitude A10  of the modal field  at  resonance  is  inversely  proportional  to  h.  
+					                 
+					                 Hence,  the  strength  of  the  radiated  field  from  a resonant patch is  essentially independent  of  h,  if  losses are ignored. The resonant input resistance will  likewise  be  nearly  independent  of  h.  This  explains  why  a  patch  antenna  can  be  an  effective radiator even for very thin substrates, although the bandwidth will be small.
+					                 
+					                 Microstrip patch antennas radiate primarily because of the fringing fields between the patch edge and the ground plane. For good antenna performance, a thick dielectric substrate having a low dielectric constant is desirable since this provides better efficiency, larger bandwidth and better radiation . However, such a configuration leads to a larger antenna size. In order to design a compact Microstrip patch antenna, substrates with higher dielectric constants must be used which are less efficient and result in narrower bandwidth. Hence a trade-off must be realized between the antenna dimensions and antenna performance.
+					                 
+					                 \subsection{Advantages }
+					                  \justify
+						                  Microstrip patch antennas are mostly used in wireless applications due to their low profile Structure. Therefore they are extremely compatible for embedded antennas in handheld Wireless devices such as cellular phones, pagers etc.
+						                  \\
+						                  Some of the principal advantages are given below:
+						                  
+						                  \begin{itemize}
+						                  	\item Light weight and less volume.
+						                  	\item Low fabrication cost, therefore can be manufactured in large quantities.
+						                  	\item Supports both, linear as well as circular polarization.
+						                  	\item Low profile planar configuration which can be easily made conformal to host surface.
+						                  	\item Can be easily integrated with microwave integrated circuits (MICs).
+						                  	\item Capable of dual and triple frequency operations.
+						                  	\item Mechanically robust when mounted on rough surfaces. 
+						                  \end{itemize}
+						                  
+						                  Microstrip patch antennas suffer from more drawbacks as compared to conventional Antennas. Microstrip patch antennas have a very high antenna quality factor (Q). It represents the losses associated with the antenna where a large Q leads to narrow bandwidth and low efficiency. Q can be decreased by increasing the thickness of the dielectric substrate. But as the thickness increases, an increasing fraction of the total power delivered by the source goes into a surface wave. This surface wave contribution can be counted as an unwanted power loss since it is ultimately scattered at the dielectric bends and causes degradation of the antenna characteristics.
+						                  
+						                  The simulated peak gains and efficiencies of the antennas from 1 to 17 GHz . It can be seen that all of the antennas have almost the same gain and efficiency, so again the slots do not have much effects on the performances throughout the entire operation band. The average gains of these antennas from 3.1to 10.6 GHz are about 2.8 dBi and the average efficiencies are about 0.88.
+						                  
+						              
+					               	
+				
+
+\cleardoublepage
+
+\section{Conclusion}\label{sec:Conclusion}
+    \subsection{Energy, Economy Environment Aspect:}\label{sub:Energy, Economy Environment Aspect:}
+       Multiband freq. band at 2GHz,3.06GHz  3.84GHz  .Slot shapes embedded along the four diagonal directions on the patch radiators gives circularly polarization. The proposed patch antenna will be designed using above designing parameters and the responses obtained using HFSS simulation software.
+    \subsection{Project Planning:}\label{sub:Project Planning:}
+
+    \subsection{Cost estimation:}\label{sub:Cost estimation:}
+      The costing includes two dimensions
+      a.  designing
+      b. fabrication
+      The designing includes more labour than monetary factors. Once the design is ready the antenna will be ready very early.  The fabrication of antenna in size is very small.  It is like two credit cards.
+      The approximate cost will be near about 4 to 5 K.
+\cleardoublepage
+
+\section{ACKNOWLEDGEMENT}
+  \justify
+	It gives us a great pleasure to submit  Project-Seminar report. This is the only page where we have the opportunity to express our emotions and gratitude .We express our sincere thanks to our guide Mr. V.P.Kardile sir for guiding us at every step in making of this project. He motivated us and boosted our confidence and We must admit that the work would not have been accomplished without his guidance and encouragement. \\
+	We would like to extend our special thanks to H.O.D Prof. V.M. Kulkarni and Principal Dr. J.H. Godihal for spending their valuable time to go through our report and providing many helpful suggestions. Lastly We would like to thank all the staff member of electronics department and my friends without whom the project report would not have been completed.\\
+	 
+   \hfill Amol Dhormare(………..…………)
+   \hfill Abhishek Joshi(………...…….…...)
+   \hfill Rushank Deshpande(..…………….) 
+   \hfill B.E. (Electronics and communication Engineering)
+
 \end{document}
