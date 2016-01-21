@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm -rf *.log *.aux *.pdf *.synctex.gz
+rm -rf *.log *.aux *.pdf *.synctex.gz *.toc
