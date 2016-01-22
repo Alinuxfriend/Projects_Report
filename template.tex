@@ -10,10 +10,18 @@
 \usepackage{mathtools}
 \usepackage{amsmath}
 % for justify alignment
-
 \usepackage{ragged2e} 
 \usepackage{titlesec}
 \usepackage{standalone}
+\usepackage{times}
+%%\usepackage[T1]{fontenc} % not working in my report font
+\usepackage{mathptmx}
+%%%%%%%%%%%%%%%%%% Remove dotted line from list of content
+\makeatletter
+\renewcommand{\@dotsep}{10000} 
+\makeatother
+%%%%%%%%%%%%%%%%%%
+
 
 \setcounter{secnumdepth}{5}
 	
@@ -28,14 +36,19 @@
 \listoffigures
 \thispagestyle{empty}
 \cleardoublepage
+%%%%%%%%%%%%%%%%%%%
+\listoftables
+\thispagestyle{empty}
+
+%%%%%%%%%%% Add list of Figure and Synopsis
 \addcontentsline{toc}{section}{\numberline{} List of Figure}
 \addcontentsline{toc}{section}{\numberline{} SYNOPSIS}
-
+%%%%%%%%%%%
 
 \section*{SYNOPSIS}
-\justify
-The telecommunication always tries to reach the best performances, the reliability and the efficiency with the lowest possible costs. In this domain, antennas establish a basic element allowing the transmission of the electromagnetic waves in free space. We find several types of antennas which different by cuts, geometrical shape, capacity of transmission. The most serious limitations of the microstrip antenna is its narrow band, which is typically of the order of some percents 1-5 \%. However, the new generation of the communication, the mobile or satellite communication, provokes considerable changes in patches antennas, from which the various modern applications require a functioning in wideband.
-This  project will design and analyze a rectangular Microstrip patch antenna by using the software HFSS.Microstrip antennas have a profile which relays at the needs of new technology, such as a low profile, a flat configuration and a better gain. The simple configuration of the rectangular microstrip antenna presents generally a narrow band. The project will take effort to enhance gain and bandwidth with inclusion of symmetrical shape slots placed on the patch surface.
+	\justify
+	The telecommunication always tries to reach the best performances, the reliability and the efficiency with the lowest possible costs. In this domain, antennas establish a basic element allowing the transmission of the electromagnetic waves in free space. We find several types of antennas which different by cuts, geometrical shape, capacity of transmission. The most serious limitations of the microstrip antenna is its narrow band, which is typically of the order of some percents 1-5 \%. However, the new generation of the communication, the mobile or satellite communication, provokes considerable changes in patches antennas, from which the various modern applications require a functioning in wideband.
+	This  project will design and analyze a rectangular Microstrip patch antenna by using the software HFSS.Microstrip antennas have a profile which relays at the needs of new technology, such as a low profile, a flat configuration and a better gain. The simple configuration of the rectangular microstrip antenna presents generally a narrow band. The project will take effort to enhance gain and bandwidth with inclusion of symmetrical shape slots placed on the patch surface.
 \thispagestyle{empty}
 \cleardoublepage
 
@@ -90,13 +103,153 @@ This  project will design and analyze a rectangular Microstrip patch antenna by 
   \textbf{Chapter 5}
 
       It contains the conclusion of the project report.
-
+\cleardoublepage
 % this is literature survey
 \section{Literature Survey}\label{sec:Literature Survey}
 \justify
-The paper studies the method of using a ground slot for bandwidth improvement of compact ultra-wide band (UWB) antennas with microstrip line feed. Slots of different shapes such as triangular, rectangular, partially circular and hexagonal, placed on the ground plane under the feed line of the radiator are studied for impedance matching. 
+	The paper studies the method of using a ground slot for bandwidth improvement of compact ultra-wide band (UWB) antennas 	with microstrip line feed. Slots of different shapes such as triangular, rectangular, partially circular and hexagonal, placed on the ground plane under the feed line of the radiator are studied for impedance matching. 
+	
+	
+  \subsection{Paper 1}
+	\begin{center}
+		   \begin{table}[h]
+		   	
+		   	\begin{tabular}{ |l|p{11cm}| }
+		   		\hline
+		   		Title of paper &  Bandwidth Improvements Using Ground Slots for Compact UWB Microstrip-fed Antennas \\
+		   		\hline
+		   		Authors & L. Liu, S. W. Cheung, and T. I. Yuk \\
+		   		\hline
+		   		Year of Publication & 2011 \\
+		   		\hline
+		   		Publishing details & International Conference on Education Technology and Computer (IEEE) \\ \hline
+		   		Summary & A small microstip-fed monopole antenna, which consists of a rectangular patch and a truncated ground plane, is presented for ultra wideband application. The proposed antenna is designed to operate over 3.1 to 11 GHz for 11 10 dB. Good return loss and radiation pattern characteristics are obtained in the frequency band of interest.\\
+		   		\hline
+		   		Weblink & http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=arnumber=5403292 \\
+		   		\hline			 
+		   	\end{tabular}	
+		   	
+		   \end{table}
+	\end{center}
+ 
+	\subsection{Paper 2}
+	 \begin{center}
+	 	\begin{table}[h]
+	 		\centering
+	 		\begin{tabular}{ |l|p{11cm}| }
+	 			\hline
+	 			Title of paper &  Planar UWB antenna with multi-slotted ground plane \\
+	 			\hline
+	 			Authors & Azim, R., M. T. Islam, N. Misran, S. W. Cheung, and Y. Yamada \\
+	 			\hline
+	 			Year of Publication & 2011 \\
+	 			\hline
+	 			Publishing details & The paper studies the method of using a ground slot for bandwidth improvement of compact ultra-wide band (UWB) antennas with microstrip line feed. Slots of different shapes such as triangular, rectangular, partially circular and hexagonal, placed on the ground plane under the feed line of the radiator are studied for impedance matching.\\
+	 			\hline
+	 			Weblink & http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=arnumber=5403292 \\
+	 			\hline			 
+	 		\end{tabular}		
+	 		
+	 	\end{table}
+	 \end{center}
+	 
+	\cleardoublepage
+	 
+	 \subsection{Paper 3}
+	  \begin{center}
+	  	\begin{table}[h]
+	  		\centering
+	  		\begin{tabular}{ |l|p{11cm}| }
+	  			\hline
+	  			Title of paper &  Printed band-rejection UWB antenna with H-shaped slot \\
+	  			\hline
+	  			Authors & Bao, X. L. and M. J. Ammann \\
+	  			\hline
+	  			Year of Publication & 2012 \\
+	  			\hline
+	  			Publishing details & The ground element of the proposed antenna is taken in the form of defected ground structure. The antenna is fed by a microstrip feeding technique and printed on a dielectric Fr4 substrate of dimension (30mm X 32 mm) permittivity εr =4.4 and height h = 1.59 mm. The optimization on the microstrip has been done to accomplish an -10 dB return loss criterion. Design parameters like substrate variation, feed size and defected ground plane which affect the performance of the antenna in terms of its frequency domain and time domain characteristics are investigated.\\
+	  			\hline
+	  			Weblink & http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=arnumber=5403292 \\
+	  			\hline			 
+	  		\end{tabular}		
+	  		
+	  	\end{table}
+	  \end{center}
 
-%
+
+	  \subsection{Paper 4}
+		   	\begin{table}[h]
+		   		\centering
+		   		\begin{tabular}{ |l|p{11cm}| }
+		   			\hline
+		   			Title of paper &  Inverted triangle printed monopole antenna with halfdisk for UWB applications \\
+		   			\hline
+		   			Authors & Chayono, R., M. Haneishi, and Y. Kimura \\
+		   			\hline
+		   			Year of Publication & 2013 \\
+		   			\hline
+		   			Publishing details & International Conference on Education Technology and Computer (IEEE) \\ \hline
+		   			Summary & A small microstip-fed monopole antenna, which consists of a rectangular patch and a truncated ground plane, is presented for ultra wideband application. The proposed antenna is designed to operate over 3.1 to 11 GHz for 11 10 dB. Good return loss and radiation pattern characteristics are obtained in the frequency band of interest.\\
+		   			\hline
+		   			Weblink & http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=arnumber=5403292 \\
+		   			\hline			 
+		   		\end{tabular}		
+		   		
+		   	\end{table}
+
+  	  \cleardoublepage
+  	  
+	   \subsection{Paper 5}
+	    	\begin{table}[h]
+	    		\centering
+	    		\begin{tabular}{ |l|p{11cm}| }
+	    			\hline
+	    			Title of paper & Small modified monopole antenna for UWB application \\
+	    			\hline
+	    			Authors & Ojaroudi, M., G. Kohneshahri, and J. Noory \\
+	    			\hline
+	    			Year of Publication & 2013 \\
+	    			\hline
+	    			Publishing details & International Conference on Education Technology and Computer (IEEE) \\ \hline
+	    			Summary & A two-port rectangular microstrip patch antenna for dual frequency operation is investigated in this paper. Simple microstrip line feed has been used to feed the antenna. Quarter wavelength transformer is used for impedance matching. For the conventional dual feed dual frequency antenna the isolation between the two ports is obtained as 30 dB. An Improvement in isolation performance has been achieved by the introduction of defected microstrip structure which acts as band stop filters and thereby increases isolation between the two ports.\\
+	    			\hline
+	    			Weblink & http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=arnumber=5403292 \\
+	    			\hline			 
+	    		\end{tabular}		
+	    		
+	    	\end{table}
+		
+			\subsection{Comparision}
+			 \begin{center}
+			 	\begin{table}[H]
+			 		\begin{tabular}{ |p{8cm}|p{7cm}|}
+			 			\hline                
+			 			PAPER & RESULT \\ \hline
+			 			
+			 			Bandwidth Improvements Using Ground Slots for Compact UWB Microstrip-fed Antennas & The hexagonal slot provides the largest impedance bandwidth of 3.1-16.3 GHz for S11 < ¡10 dB, with an average gain of about 2.8 dBi and an average efficiency of about 88\% \\ \hline
+			 			
+			 			Development of a practical ultra- wideband antenna with planar circuit integration possibilities & This antenna can also be operated at 2.478 GHz as it provides dual band operation. At 2.478 GHz the values of Return loss and bandwidth are -30.218dB and 33.1 MHz respectively \\ \hline
+			 			
+			 			Wide band high efficiency printed loop antenna design for wireless communication systems & A compact, 31mm x 21mm low profile planar ultra-wide band patch antenna was introduced. The antenna was ex-cited using a rectangular edge-feed microstrip feed line. The impedance bandwidth of the antenna is about 11 GHz (3.0-14GHz), which exceeds the FCC UBW requirement. \\ \hline
+			 			
+			 			Design of reconfigurable slot antenna & Besides exhibiting a 10-dB bandwidth of 172\% with 13.06:1 ratio bandwidth, a 14-dB bandwidth (low return loss) of 79\% is also demonstrated in the higher UWB operating bands for outdoor propagation.\\ \hline
+			 			
+			 			Design of band notched UWB patch antenna with circular slot  & The patch antenna ring ultrawide-bandwidth radiating between 2.5GHz and 9.4GHz in order to achieve the
+			 			operation Bluetooth / ISM, 2.5/3.5 GHz and 5.2/5.7 GHz WiMAX WLAN. \\ \hline 
+			 			
+			 			Microstrip Antenna gain enhancement using left-handed metamaterial structure & The resonant frequency of the antenna is 1.99 GHz.
+			 			return loss with frequency of antenna is found to be -30.33 dB at resonant frequency 1.99 GHz. \\ \hline
+			 			
+			 			Single-feed dual-frequency rectangular microstrip antenna with square slot &  At 2GHz the verified and tested result on RadiationEfficiency=91.99\%, Directivity=5.4dBi,Directive gain=4.98dBi \\ \hline
+			 			
+			 			
+			 			
+			 		\end{tabular}
+			 	\end{table}
+			 \end{center}	    	
+
+	  
+
 \cleardoublepage
  
 \section{System Modeling}\label{sec:System Modeling}
@@ -233,7 +386,7 @@ The paper studies the method of using a ground slot for bandwidth improvement of
 					This is the frequency range wherein the antenna maintains its polarization.
 					
               \end{itemize}
-				
+			\cleardoublepage	
               \subsubsection{Resonant Frequency}\label{sub:Resonant Frequency}
                \justify
 	              The resonance frequency for the (1, 0) mode is given by
@@ -272,9 +425,29 @@ The paper studies the method of using a ground slot for bandwidth improvement of
 	                        W = Width of the patch
 	              
 	         \cleardoublepage
-				\subsection{Substrates}\label{sub:Substrates Characteristics}
+				\subsection{Substrates }\label{sub:Substrates Characteristics}
 		           \justify
 		            There are many substrates that can be used for the design of microstrip antennas, and their dielectric constants (Er) are usually in the range of 2.2 $<$ Er $<$ 12. Thick substrates are most desirable for antenna performance as their dielectric constants are in the lower end, which provide better efficiency, larger bandwidth, loosely bound fields for radiation into space (better radiation power). However, these are achieved at the expense of larger element size, increase in weight, dielectric loss, surface wave loss and extraneous radiations. Thin substrates with higher dielectric constants, on the other hand, are desirable for microwave circuitry because they require tightly bound fields to minimize undesired radiation and coupling, thus leading to smaller sizes. However, because of their greater losses, they are less efficient and have relatively smaller bandwidth . Since microstrip antennas are often integrated with other microwave circuitry, a compromise has to be reached between good antenna performance and circuit design. 
+		            
+		            \begin{center}
+		            	\begin{table}[H]
+		            		\centering
+		            		\begin{tabular}{ |l|l|}
+		            			\hline
+		            			Thick substrate &	Thin substrate \\ \hline
+		            			Low dielectric constant & High dielectric constant  \\ \hline
+		            			Better efficiency &	Less efficiency  \\ \hline
+		            			Larger bandwidth &	Smaller bandwidth  \\ \hline
+		            			Larger element size & Smaller element size  \\ \hline
+		            			Increase in weight &	Lighter in weight  \\ \hline
+		            			Increase in dielectric loss &	Minimum dielectric loss  \\ \hline
+		            			
+		            			
+		            		\end{tabular}
+		            				            	\caption{Table Thick and Thin  Substrate }
+		            	\end{table}
+
+		            \end{center}
 	            
 	           \subsubsection{High Frequency Structure Simulator }
 	            \justify
@@ -296,6 +469,8 @@ The paper studies the method of using a ground slot for bandwidth improvement of
 		        \subsubsection{PCB Fabrication}
 		         \justify
 		          Various techniques are available for fabrication of micro strip patch antenna. If the substrate is flexible, conformal antennas are possible. Feed line and matching networks are fabricated along with antenna structure. The fabrication of strip antenna was designed using Auto CAD. Etching is done with the standard photolithographic processes. In order to transfer the mask image on electro plated copper PCB board photolithography technique was used. The cut size pieces of PCB sheets were cleaned to the surface impurities using organic solvents and then dried with hot air gun before coating the positive photo resist (PPR) on it. The PPR coated substrate was pre-baked in an oven at 90 degrees to remove the solvent and stuffing the film. The baked substrate was exposed on indigenously developed mask aligner with inbuilt exposure system and mask as prepared earlier . The accuracy of etching process also ensures uniformity of different parts over a production run.
+		          
+		         \cleardoublepage
 		         \subsubsection{ Testing of Antenna}
 		          \justify 
 		           After Fabrication the antenna is tested for measurement of VSWR and return loss. As this project is based with only one datasheet of surface mounted device component so, it will obtain the desired result for the above parameter. The antenna parameter VSWR and Return loss is tested using Network Analyzer. Network analyzers incorporate new technologies and features to provide better performance and capabilities for antenna. 
@@ -393,8 +568,7 @@ The paper studies the method of using a ground slot for bandwidth improvement of
 				                 ∆L 	= small difference between length.
 				                 
 				                 Step 5: Calculation of the length extension (∆L):  
-				                 The length extension is:
-				                 24
+				                 The length extension is:     24
 				                 
 				                 Figure shows the simple rectangular patch antenna. 
 				                 The length, L= 35mm, 
@@ -403,15 +577,34 @@ The paper studies the method of using a ground slot for bandwidth improvement of
 				                 and cut width= 5mm, 
 				                 length of transmission line feed= 32mm, 
 				                 width of the feed= 3mm. 
-				                 The rectangular microstrip patch antenna designed on one side of the epoxy structure with εr = 4.4 and height from the ground plane= 1.6mm. 
+				                 The rectangular microstrip patch antenna designed on one side of the epoxy structure with εr = 4.4 and height from the ground plane= 1.6mm. \\
+				                 
 				                 
 				                
 				                 The simulated peak gains and efficiencies of the antennas from 1 to 17 GHz . It can be seen that all of the antennas have almost the same gain and efficiency, so again the slots do not have much effects on the performances throughout the entire operation band. The average gains of these antennas from 3.1to 10.6 GHz are about 2.8 dBi and the average efficiencies are about 0.88
+				                 
+				                 \begin{center}
+				                 		\begin{table}[H]
+				                 			\centering
+				                 			\begin{tabular}{ |l|l|}
+				                 				\hline
+				                 				Parameter & Specification \\ \hline
+				                 				Patch Shape &  Plan rectangular patch \\ \hline
+				                 				Frequency Range &  3.1–16.3 GHz \\ \hline
+				                 				Dielectric constant of substrate & 4.4 \\ \hline
+				                 				Height of substrate &   1.6mm \\ \hline
+				                 				Feeding method &  Microstrip feed line \\ \hline
+				                 				Polarization &  Circular \\ \hline			
+				                 			\end{tabular}
+				                 			\caption{Design Parameter}
+				                 		\end{table}
+				                 \end{center}
 				                 
 				                \subsubsection{Feed Techniques}
 				                  \justify
 				                   Microstrip patch antennas can be fed by a variety of methods. These methods can be
 				                   classified into two categories- contacting and non-contacting. In the contacting method, the RF power is fed directly to the radiating patch using a connecting element such as a microstrip line. In the non-contacting scheme, electromagnetic field coupling is done to transfer power between the microstrip line and the radiating patch . The four most popular feed techniques used are the microstrip line, coaxial probe (both contacting schemes), aperture coupling and proximity coupling (both non-contacting schemes).
+				                   
 				                 \paragraph{ Microstrip Line Feed}
 				                   \justify
 				                    In this type of feed technique, a conducting strip is connected directly to the edge of the microstrip patch as shown in Figure 3.3. The conducting strip is smaller in width as compared to the patch and this kind of feed arrangement has the advantage that the feed can be etched on the same substrate to provide a planar structure.
@@ -435,19 +628,24 @@ The paper studies the method of using a ground slot for bandwidth improvement of
 					                     	\caption{Probe feed Rectangular Microstrip Patch Antenna. }	             	
 					                     \end{figure}
 					                   This feed method is easy to fabricate and has low spurious radiation. However, a major disadvantage is that it provides narrow bandwidth and is difficult to model since a hole has to be drilled in the substrate and the connector protrudes outside the ground plane, thus not making it completely planar for thick substrates (h > 0.02λo). Also, for thicker substrates, the increased probe length makes the input impedance more inductive, leading to matching problems . It is seen above that for a thick dielectric substrate, which provides broad bandwidth.
+					                   
+					                   
 					                \paragraph{Aperture Coupled Feed}
 					                 \justify
 					                  In this type of feed technique, the radiating patch and the microstrip feed line are separated by the ground plane as shown in Figure 2.5. Coupling between the patch and the feed line is made through a slot or an aperture in the ground plane.  The coupling aperture is usually centered under the patch, leading to lower cross-polarization due to symmetry of the configuration. The amount of coupling from the feed line to the patch is determined by the shape, size and location of the aperture.
+					                  
 					                    \begin{figure}[H]
 					                    	\centering
 					                    	\includegraphics[height=3in]{/home/abc/Allprojects/project_report/System_Modelling/image12.png}
 					                    	\caption{Aperture-coupled feed }	             	
 					                    \end{figure}
+					                    
 					                   Since the ground plane separates the patch and the feed line, spurious radiation is minimized. Generally, a high dielectric material is used for bottom substrate and a thick, low dielectric constant material is used for the top substrate to optimize radiation from the patch . The major disadvantage of this feed technique is that it is difficult to fabricate due to multiple layers, which also increases the antenna thickness. This feeding scheme also provides narrow bandwidth.
 					                  
 					                 \paragraph{ Proximity Coupled Feed}
 					                  \justify
-					                   This type of feed technique is also called as the electromagnetic coupling scheme two dielectric substrates are used such that the feed line is between the two substrates and the radiating patch is on top of the upper substrate. The main advantage of this feed technique is that it eliminates spurious feed radiation and provides very high bandwidth (as high as 13 \%) , due to overall increase in the thickness of the microstrip patch antenna. This scheme also provides choices between two different dielectric media, one for the patch and one for the feed line to optimize the individual 
+					                   This type of feed technique is also called as the electromagnetic coupling scheme two dielectric substrates are used such that the feed line is between the two substrates and the radiating patch is on top of the upper substrate. The main advantage of this feed technique is that it eliminates spurious feed radiation and provides very high bandwidth (as high as 13 \%) , due to overall increase in the thickness of the microstrip patch antenna. This scheme also provides choices between two different dielectric media, one for the patch and one for the feed line to optimize the individual.
+					                   
 					               \subsection{ Basic Principles of Operation}
 					                \justify
 					                 The  metallic  patch  essentially  creates  a  resonant  cavity,  where  the  patch  is  the  top  of  the cavity, the ground plane is the bottom of the cavity, and the edges of the patch form the sides of the cavity. The edges of the patch act approximately as an open-circuit boundary condition. Hence, the patch acts approximately as a cavity with perfect electric conductor on the top and bottom surfaces, and a perfect “magnetic conductor” on the sides. This point of view is very useful in analyzing the patch antenna, as well as in understanding its behavior. Inside the patch cavity the electric field is essentially z directed and independent of the z coordinate. Hence, the patch cavity modes are described by a double index (m, n). For the (m, n) cavity mode of the rectangular patch the electric field has the form
@@ -458,13 +656,17 @@ The paper studies the method of using a ground slot for bandwidth improvement of
 					                 At first glance, it might appear that the Rectangular Microstrip Patch Antenna will not be an effective radiator when the substrate is electrically thin,   However, the Q of the cavity increases as  h decreases (the radiation Q is inversely proportional to h). Hence, the amplitude A10  of the modal field  at  resonance  is  inversely  proportional  to  h.  
 					                 
 					                 Hence,  the  strength  of  the  radiated  field  from  a resonant patch is  essentially independent  of  h,  if  losses are ignored. The resonant input resistance will  likewise  be  nearly  independent  of  h.  This  explains  why  a  patch  antenna  can  be  an  effective radiator even for very thin substrates, although the bandwidth will be small.
+					                 
 					                \begin{figure}[H]
 					                	\centering
 					                	\includegraphics[height=3in]{/home/abc/Allprojects/project_report/System_Modelling/image13.png}
-					                	\caption{Aperture-coupled feed }	             	
+					                	\caption{Common Shapes Of Microstrip Patch Elements}	             	
 					                \end{figure}
+					                
 					                 Microstrip patch antennas radiate primarily because of the fringing fields between the patch edge and the ground plane. For good antenna performance, a thick dielectric substrate having a low dielectric constant is desirable since this provides better efficiency, larger bandwidth and better radiation . However, such a configuration leads to a larger antenna size. In order to design a compact Microstrip patch antenna, substrates with higher dielectric constants must be used which are less efficient and result in narrower bandwidth. Hence a trade-off must be realized between the antenna dimensions and antenna performance.
-					                 
+					                
+					                \cleardoublepage
+					                
 					                 \section{Advantages and Application}
 					                  \justify
 						                 Microstrip patch antennas are mostly used in wireless applications due to their low profile Structure. Therefore they are extremely compatible for embedded antennas in handheld Wireless devices such as cellular phones, pagers etc.
@@ -510,12 +712,20 @@ The paper studies the method of using a ground slot for bandwidth improvement of
 
 \section{ACKNOWLEDGEMENT}
   \justify
-	It gives us a great pleasure to submit  Project-Seminar report. This is the only page where we have the opportunity to express our emotions and gratitude .We express our sincere thanks to our guide Mr. V.P.Kardile sir for guiding us at every step in making of this project. He motivated us and boosted our confidence and We must admit that the work would not have been accomplished without his guidance and encouragement. \\
-	We would like to extend our special thanks to H.O.D Prof. V.M. Kulkarni and Principal Dr. J.H. Godihal for spending their valuable time to go through our report and providing many helpful suggestions. Lastly We would like to thank all the staff member of electronics department and my friends without whom the project report would not have been completed.\\
+	It gives us a great pleasure to submit  Project report.This is the only page where we have the opportunity to express our emotions and gratitude . We express our sincere thanks to our guide \textbf{Mr. V.P.Kardile} sir for guiding us at every step in making of this project. He motivated us and boosted our confidence and We must admit that the work would not have been accomplished without his guidance and encouragement. \\ 
+	
+	
+	We would like to extend our special thanks to \textbf{H.O.D Prof. V.M. Kulkarni} and \textbf{Principal Dr. J.H. Godihal} for spending their valuable time to go through our report and providing many helpful suggestions. Lastly We would like to thank all the staff member of electronics department and my friends without whom the project report would not have been completed.\\
 	 
-   \hfill Amol Dhormare(………..…………)
-   \hfill Abhishek Joshi(………...…….…...)
-   \hfill Rushank Deshpande(..…………….) 
-   \hfill B.E. (Electronics and communication Engineering)
+	 
+	 \begin{flushright}
+	 	Amol Dhormare(.....................) \\
+	 	Abhishek Joshi(....................) \\
+	 	Rushank Deshpande(...................) \\
+	 	B.E. (Electronics and communication Engineering) \\	 	
+	 \end{flushright}
+	 
+
+	    
 
 \end{document}

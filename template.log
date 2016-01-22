@@ -1,0 +1,971 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.1.19)  22 JAN 2016 16:48
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**template.tex
+(./template.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 79 languages loaded.
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count90
+))
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks16
+\float@box=\box26
+\@float@everytoks=\toks17
+\@floatcapt=\box27
+)
+(/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count92
+\calc@Bcount=\count93
+\calc@Adimen=\dimen113
+\calc@Bdimen=\dimen114
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count94
+\calc@Cskip=\skip45
+)
+(/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen115
+))
+(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen116
+)
+(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen117
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks19
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks20
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks21
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count107
+\l_MT_multwidth_dim=\dimen124
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen125
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen126
+\l_MT_above_intertext_sep=\dimen127
+\l_MT_below_intertext_sep=\dimen128
+\l_MT_above_shortintertext_sep=\dimen129
+\l_MT_below_shortintertext_sep=\dimen130
+)
+(/usr/share/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/share/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip50
+\RaggedLeftLeftskip=\skip51
+\RaggedRightLeftskip=\skip52
+\CenteringRightskip=\skip53
+\RaggedLeftRightskip=\skip54
+\RaggedRightRightskip=\skip55
+\CenteringParfillskip=\skip56
+\RaggedLeftParfillskip=\skip57
+\RaggedRightParfillskip=\skip58
+\JustifyingParfillskip=\skip59
+\CenteringParindent=\skip60
+\RaggedLeftParindent=\skip61
+\RaggedRightParindent=\skip62
+\JustifyingParindent=\skip63
+)
+(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box30
+\beforetitleunit=\skip64
+\aftertitleunit=\skip65
+\ttl@plus=\dimen131
+\ttl@minus=\dimen132
+\ttl@toksa=\toks23
+\titlewidth=\dimen133
+\titlewidthlast=\dimen134
+\titlewidthfirst=\dimen135
+)
+(/usr/share/texmf-dist/tex/latex/standalone/standalone.sty
+Package: standalone 2015/07/15 v1.2 Package to include TeX sub-files with pream
+bles
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
+)
+\XKV@depth=\count108
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texmf-dist/tex/latex/currfile/currfile.sty
+Package: currfile 2013/02/01 v0.7b Provides the file path elements of the curre
+nt input file
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)
+\c@currfiledepth=\count109
+)
+(/usr/share/texmf-dist/tex/latex/gincltex/gincltex.sty
+(/usr/share/texmf-dist/tex/latex/svn-prov/svn-prov.sty
+Package: svn-prov 2010/04/24 v3.1862 Package Date/Version from SVN Keywords
+)
+Package: gincltex 2011/09/04 v0.3 Include external LaTeX files like graphics
+
+(/usr/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/share/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+(/usr/share/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box31
+)
+\tc@llx=\dimen136
+\tc@lly=\dimen137
+\tc@urx=\dimen138
+\tc@ury=\dimen139
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/share/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen140
+\adjbox@Height=\dimen141
+\adjbox@Depth=\dimen142
+\adjbox@Totalheight=\dimen143
+
+(/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
+\c@checkoddpage=\count110
+)
+(/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box32
+\sift@deathcycles=\count111
+\@vwid@loff=\dimen144
+\@vwid@roff=\dimen145
+))
+\gincltex@box=\box33
+)
+(/usr/share/texmf-dist/tex/latex/filemod/filemod-expmin.sty
+Package: filemod-expmin 2011/09/19 v1.2 Get and compare file modification times
+ (expandable; minimal)
+))
+(/usr/share/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+) (./template.aux)
+\openout1 = `template.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 28.
+
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(108.405pt, 416.83289pt, 72.26999pt)
+* v-part:(T,H,B)=(36.135pt, 736.64186pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=416.83289pt
+* \textheight=736.64186pt
+* \oddsidemargin=36.13501pt
+* \evensidemargin=36.13501pt
+* \topmargin=-36.135pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count112
+\scratchdimen=\dimen146
+\scratchbox=\box34
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen147
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks27
+) (/usr/share/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 28.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+ (./template.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 4.
+
+
+(/usr/share/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 4.
+
+
+(/usr/share/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 4.
+
+
+(/usr/share/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 4.
+
+
+(/usr/share/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+\tf@toc=\write3
+\openout3 = `template.toc'.
+
+ [2] (./template.lof)
+\tf@lof=\write4
+\openout4 = `template.lof'.
+
+ [3
+
+] (./template.lot)
+\tf@lot=\write5
+\openout5 = `template.lot'.
+
+
+[4
+
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no † in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no † in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no † in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no † in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no † in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no † in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no † in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no † in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no † in font ptmr7t!
+ [1
+
+] [2
+
+]
+Overfull \hbox (3.7921pt too wide) in paragraph at lines 128--129
+[]\OT1/ptm/m/n/12 http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=arnumber=540329
+2| 
+ []
+
+
+Overfull \hbox (12.93042pt too wide) in paragraph at lines 117--131
+[][] 
+ []
+
+
+Overfull \hbox (3.7921pt too wide) in paragraph at lines 149--150
+[]\OT1/ptm/m/n/12 http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=arnumber=540329
+2| 
+ []
+
+
+Overfull \hbox (12.93042pt too wide) in paragraph at lines 139--152
+ [][] 
+ []
+
+[3
+
+]
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+
+Overfull \hbox (3.7921pt too wide) in paragraph at lines 172--173
+[]\OT1/ptm/m/n/12 http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=arnumber=540329
+2| 
+ []
+
+
+Overfull \hbox (12.93042pt too wide) in paragraph at lines 162--175
+ [][] 
+ []
+
+
+Overfull \hbox (3.7921pt too wide) in paragraph at lines 194--195
+[]\OT1/ptm/m/n/12 http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=arnumber=540329
+2| 
+ []
+
+
+Overfull \hbox (12.93042pt too wide) in paragraph at lines 183--197
+ [][] 
+ []
+
+[4
+
+]
+Overfull \hbox (3.7921pt too wide) in paragraph at lines 216--217
+[]\OT1/ptm/m/n/12 http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=arnumber=540329
+2| 
+ []
+
+
+Overfull \hbox (12.93042pt too wide) in paragraph at lines 205--219
+ [][] 
+ []
+
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ° in font ptmr7t!
+
+Underfull \hbox (badness 1028) in paragraph at lines 233--233
+\OT1/ptm/m/n/12 feed line. The impedance band-width
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+[]\OT1/ptm/m/n/12 The patch an-tenna ring ultrawide-
+ []
+
+
+Underfull \hbox (badness 5231) in paragraph at lines 243--243
+[]\OT1/ptm/m/n/12 Single-feed dual-frequency rect-an-gu-lar mi-
+ []
+
+
+Overfull \hbox (33.95844pt too wide) in paragraph at lines 225--248
+[][] 
+ []
+
+[5
+
+] [6]
+Missing character: There is no Õ in font ptmr7t!
+Missing character: There is no æ in font ptmr7t!
+
+</home/abc/Allprojects/project_report/System_Modelling/image1.png, id=36, 311.0
+0461pt x 172.96078pt>
+File: /home/abc/Allprojects/project_report/System_Modelling/image1.png Graphic 
+file (type png)
+
+<use /home/abc/Allprojects/project_report/System_Modelling/image1.png>
+Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
+image1.png used on input line 263.
+(pdftex.def)             Requested size: 389.86523pt x 216.81pt.
+Missing character: There is no Õ in font ptmr7t!
+Missing character: There is no æ in font ptmr7t!
+Missing character: There is no Õ in font ptmr7t!
+Missing character: There is no æ in font ptmr7t!
+ [7
+
+ </home/abc/Allprojects/project_report/System_Modelling/image1.png>]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 279.
+
+
+(/usr/share/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 279.
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no ª in font ptmr7t!
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no ª in font ptmr7t!
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no ª in font ptmr7t!
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+
+</home/abc/Allprojects/project_report/System_Modelling/image2.png, id=42, 311.8
+1664pt x 212.7499pt>
+File: /home/abc/Allprojects/project_report/System_Modelling/image2.png Graphic 
+file (type png)
+
+<use /home/abc/Allprojects/project_report/System_Modelling/image2.png>
+Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
+image2.png used on input line 302.
+(pdftex.def)             Requested size: 317.78705pt x 216.81pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+</home/abc/Allprojects/project_report/System_Modelling/image3.png, id=43, 298.8
+2426pt x 163.21652pt>
+File: /home/abc/Allprojects/project_report/System_Modelling/image3.png Graphic 
+file (type png)
+
+<use /home/abc/Allprojects/project_report/System_Modelling/image3.png>
+Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
+image3.png used on input line 312.
+(pdftex.def)             Requested size: 396.97531pt x 216.81pt.
+ [8]
+</home/abc/Allprojects/project_report/System_Modelling/image4.png, id=48, 289.8
+9203pt x 207.87775pt>
+File: /home/abc/Allprojects/project_report/System_Modelling/image4.png Graphic 
+file (type png)
+
+<use /home/abc/Allprojects/project_report/System_Modelling/image4.png>
+Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
+image4.png used on input line 325.
+(pdftex.def)             Requested size: 302.34756pt x 216.81pt.
+ [9 </home/abc/Allprojects/project_report/System_Modelling/image2.png> </home/a
+bc/Allprojects/project_report/System_Modelling/image3.png>]
+Missing character: There is no Õ in font ptmr7t!
+Missing character: There is no æ in font ptmr7t!
+Missing character: There is no œ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--340
+
+ []
+
+[10 </home/abc/Allprojects/project_report/System_Modelling/image4.png>]
+Missing character: There is no ‚ in font zptmcm7t!
+Missing character: There is no Å in font zptmcm7t!
+Missing character: There is no ° in font zptmcm7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--349
+
+ []
+
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ∞ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ∞ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ∞ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ∞ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ∞ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ∞ in font ptmr7t!
+Missing character: There is no ¬ in font ptmr7t!
+Missing character: There is no ∞ in font ptmr7t!
+
+Overfull \hbox (0.1037pt too wide) in paragraph at lines 361--362
+[]\OT1/ptm/m/n/12 Another im-por-tant pa-ram-e-ter of any an-tenna is the band-
+width it cov-ers. Only impedance
+ []
+
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+[11]
+File: /home/abc/Allprojects/project_report/System_Modelling/image4.png Graphic 
+file (type png)
+ <use /home/abc/Allprojects/project_report/System_Modelling/image4.png>
+Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
+image4.png used on input line 369.
+(pdftex.def)             Requested size: 302.34756pt x 216.81pt.
+
+[12]
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no î in font ptmr7t!
+
+</home/abc/Allprojects/project_report/System_Modelling/image6.png, id=69, 181.0
+8101pt x 43.84921pt>
+File: /home/abc/Allprojects/project_report/System_Modelling/image6.png Graphic 
+file (type png)
+
+<use /home/abc/Allprojects/project_report/System_Modelling/image6.png>
+Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
+image6.png used on input line 406.
+(pdftex.def)             Requested size: 181.08057pt x 43.84909pt.
+
+</home/abc/Allprojects/project_report/System_Modelling/image7.png, id=70, 193.2
+6135pt x 60.08966pt>
+File: /home/abc/Allprojects/project_report/System_Modelling/image7.png Graphic 
+file (type png)
+
+<use /home/abc/Allprojects/project_report/System_Modelling/image7.png>
+Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
+image7.png used on input line 413.
+(pdftex.def)             Requested size: 193.26086pt x 60.08951pt.
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+ [13
+
+ </home/abc/Allprojects/project_report/System_Modelling/image6.png> </home/abc/
+Allprojects/project_report/System_Modelling/image7.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+ |[]\OT1/ptm/b/n/14.4 Substrates |
+ []
+
+[14
+
+]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
+
+ []
+
+
+</home/abc/Allprojects/project_report/System_Modelling/image8.png, id=79, 257.4
+1112pt x 118.55528pt>
+File: /home/abc/Allprojects/project_report/System_Modelling/image8.png Graphic 
+file (type png)
+
+<use /home/abc/Allprojects/project_report/System_Modelling/image8.png>
+Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
+image8.png used on input line 464.
+(pdftex.def)             Requested size: 257.41048pt x 118.55498pt.
+ [15 </home/abc/Allprojects/project_report/System_Modelling/image8.png>] [16
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
+
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ì in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ì in font ptmr7t!
+[17
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
+
+ []
+
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no î in font ptmr7t!
+
+</home/abc/Allprojects/project_report/System_Modelling/image9.png, id=91, 282.5
+8382pt x 210.31383pt>
+File: /home/abc/Allprojects/project_report/System_Modelling/image9.png Graphic 
+file (type png)
+
+<use /home/abc/Allprojects/project_report/System_Modelling/image9.png>
+Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
+image9.png used on input line 532.
+(pdftex.def)             Requested size: 291.31035pt x 216.81pt.
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no à in font ptmr7t!
+Missing character: There is no Ü in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no à in font ptmr7t!
+Missing character: There is no Ü in font ptmr7t!
+ [18]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no à in font ptmr7t!
+Missing character: There is no Ü in font ptmr7t!
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no µ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 573--581
+
+ []
+
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ì in font ptmr7t!
+[19 </home/abc/Allprojects/project_report/System_Modelling/image9.png>]
+</home/abc/Allprojects/project_report/System_Modelling/image10.png, id=99, 273.
+65157pt x 153.47224pt>
+File: /home/abc/Allprojects/project_report/System_Modelling/image10.png Graphic
+ file (type png)
+
+<use /home/abc/Allprojects/project_report/System_Modelling/image10.png>
+Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
+image10.png used on input line 614.
+(pdftex.def)             Requested size: 386.59201pt x 216.81pt.
+
+</home/abc/Allprojects/project_report/System_Modelling/image11.png, id=100, 265
+.53134pt x 185.95314pt>
+File: /home/abc/Allprojects/project_report/System_Modelling/image11.png Graphic
+ file (type png)
+
+<use /home/abc/Allprojects/project_report/System_Modelling/image11.png>
+Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
+image11.png used on input line 627.
+(pdftex.def)             Requested size: 309.61697pt x 216.81pt.
+
+[20 </home/abc/Allprojects/project_report/System_Modelling/image10.png>]
+Missing character: There is no Œ in font ptmr7t!
+Missing character: There is no ª in font ptmr7t!
+
+</home/abc/Allprojects/project_report/System_Modelling/image12.png, id=105, 284
+.20787pt x 133.17169pt>
+File: /home/abc/Allprojects/project_report/System_Modelling/image12.png Graphic
+ file (type png)
+
+<use /home/abc/Allprojects/project_report/System_Modelling/image12.png>
+Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
+image12.png used on input line 639.
+(pdftex.def)             Requested size: 462.75601pt x 216.81pt.
+
+Overfull \hbox (45.92313pt too wide) in paragraph at lines 639--640
+ [][] 
+ []
+
+[21 </home/abc/Allprojects/project_report/System_Modelling/image11.png> </home/
+abc/Allprojects/project_report/System_Modelling/image12.png>]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+</home/abc/Allprojects/project_report/System_Modelling/image13.png, id=112, 286
+.64394pt x 144.54pt>
+File: /home/abc/Allprojects/project_report/System_Modelling/image13.png Graphic
+ file (type png)
+
+<use /home/abc/Allprojects/project_report/System_Modelling/image13.png>
+Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
+image13.png used on input line 662.
+(pdftex.def)             Requested size: 429.98671pt x 216.81pt.
+
+Overfull \hbox (13.15382pt too wide) in paragraph at lines 662--663
+ [][] 
+ []
+
+[22] [23 </home/abc/Allprojects/project_report/System_Modelling/image13.png>]
+[24
+
+] [25
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 715--716
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--719
+
+ []
+
+[26
+
+] (./template.aux) ) 
+Here is how much of TeX's memory you used:
+ 4927 strings out of 493054
+ 75743 string characters out of 6140586
+ 153152 words of memory out of 5000000
+ 8287 multiletter control sequences out of 15000+600000
+ 25514 words of font info for 55 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 51i,9n,38p,1317b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/sh
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.
+pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-d
+ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/tim
+es/utmri8a.pfb>
+Output written on template.pdf (30 pages, 469808 bytes).
+PDF statistics:
+ 154 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+
