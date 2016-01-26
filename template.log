@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.1.19)  26 JAN 2016 13:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2016.1.19)  26 JAN 2016 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -707,7 +707,7 @@ Overfull \hbox (33.95844pt too wide) in paragraph at lines 328--351
 
 [9
 
-])
+]) (./ch3.tex
 Missing character: There is no Õ in font ptmr7t!
 Missing character: There is no æ in font ptmr7t!
 
@@ -718,7 +718,7 @@ file (type png)
 
 <use /home/abc/Allprojects/project_report/System_Modelling/image1.png>
 Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
-image1.png used on input line 78.
+image1.png used on input line 9.
 (pdftex.def)             Requested size: 389.86523pt x 216.81pt.
 Missing character: There is no Õ in font ptmr7t!
 Missing character: There is no æ in font ptmr7t!
@@ -727,15 +727,13 @@ Missing character: There is no æ in font ptmr7t!
  [10
 
  </home/abc/Allprojects/project_report/System_Modelling/image1.png>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 94.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 25.
 
 (/usr/share/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 94.
-Missing character: There is no Œ in font ptmr7t!
-Missing character: There is no ª in font ptmr7t!
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 Missing character: There is no Œ in font ptmr7t!
 Missing character: There is no ª in font ptmr7t!
 Missing character: There is no Œ in font ptmr7t!
@@ -750,65 +748,45 @@ file (type png)
 
 <use /home/abc/Allprojects/project_report/System_Modelling/image2.png>
 Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
-image2.png used on input line 117.
+image2.png used on input line 47.
 (pdftex.def)             Requested size: 317.78705pt x 216.81pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-</home/abc/Allprojects/project_report/System_Modelling/image3.png, id=53, 298.8
+ [11 </home/abc/Allprojects/project_report/System_Modelling/image2.png>]
+</home/abc/Allprojects/project_report/System_Modelling/image3.png, id=58, 298.8
 2426pt x 163.21652pt>
 File: /home/abc/Allprojects/project_report/System_Modelling/image3.png Graphic 
 file (type png)
 
 <use /home/abc/Allprojects/project_report/System_Modelling/image3.png>
 Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
-image3.png used on input line 127.
+image3.png used on input line 57.
 (pdftex.def)             Requested size: 396.97531pt x 216.81pt.
- [11]
-</home/abc/Allprojects/project_report/System_Modelling/image4.png, id=58, 289.8
+
+</home/abc/Allprojects/project_report/System_Modelling/image4.png, id=59, 289.8
 9203pt x 207.87775pt>
 File: /home/abc/Allprojects/project_report/System_Modelling/image4.png Graphic 
 file (type png)
 
 <use /home/abc/Allprojects/project_report/System_Modelling/image4.png>
 Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
-image4.png used on input line 140.
-(pdftex.def)             Requested size: 302.34756pt x 216.81pt.
- [12 </home/abc/Allprojects/project_report/System_Modelling/image2.png> </home/
-abc/Allprojects/project_report/System_Modelling/image3.png>]
+image4.png used on input line 68.
+(pdftex.def)             Requested size: 166.28851pt x 119.24506pt.
 Missing character: There is no Õ in font ptmr7t!
 Missing character: There is no æ in font ptmr7t!
+ [12 </home/abc/Allprojects/project_report/System_Modelling/image3.png> </home/
+abc/Allprojects/project_report/System_Modelling/image4.png>]
 Missing character: There is no œ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--155
-
- []
-
-[13 </home/abc/Allprojects/project_report/System_Modelling/image4.png>]
 Missing character: There is no ‚ in font zptmcm7t!
 Missing character: There is no Å in font zptmcm7t!
 Missing character: There is no ° in font zptmcm7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--164
-
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
+ |[]\OT1/ptm/b/n/12 Polarization|
  []
 
 Missing character: There is no ¬ in font ptmr7t!
@@ -825,87 +803,53 @@ Missing character: There is no ¬ in font ptmr7t!
 Missing character: There is no ∞ in font ptmr7t!
 Missing character: There is no ¬ in font ptmr7t!
 Missing character: There is no ∞ in font ptmr7t!
-
-Overfull \hbox (0.1037pt too wide) in paragraph at lines 176--177
+[13]
+Overfull \hbox (0.1037pt too wide) in paragraph at lines 108--109
 []\OT1/ptm/m/n/12 Another im-por-tant pa-ram-e-ter of any an-tenna is the band-
 width it cov-ers. Only impedance
  []
 
 Missing character: There is no Œ in font ptmr7t!
 Missing character: There is no © in font ptmr7t!
-[14]
 File: /home/abc/Allprojects/project_report/System_Modelling/image4.png Graphic 
 file (type png)
- <use /home/abc/Allprojects/project_report/System_Modelling/image4.png>
+<use /home/abc/Allprojects/project_report/System_Modelling/image4.png>
 Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
-image4.png used on input line 184.
+image4.png used on input line 116.
 (pdftex.def)             Requested size: 302.34756pt x 216.81pt.
+ [14]
+[15] [16
 
-[15]
-Missing character: There is no Œ in font ptmr7t!
-Missing character: There is no î in font ptmr7t!
-
-</home/abc/Allprojects/project_report/System_Modelling/image6.png, id=79, 181.0
-8101pt x 43.84921pt>
-File: /home/abc/Allprojects/project_report/System_Modelling/image6.png Graphic 
-file (type png)
-
-<use /home/abc/Allprojects/project_report/System_Modelling/image6.png>
-Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
-image6.png used on input line 221.
-(pdftex.def)             Requested size: 181.08057pt x 43.84909pt.
-
-</home/abc/Allprojects/project_report/System_Modelling/image7.png, id=80, 193.2
-6135pt x 60.08966pt>
-File: /home/abc/Allprojects/project_report/System_Modelling/image7.png Graphic 
-file (type png)
-
-<use /home/abc/Allprojects/project_report/System_Modelling/image7.png>
-Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
-image7.png used on input line 228.
-(pdftex.def)             Requested size: 193.26086pt x 60.08951pt.
-Missing character: There is no Œ in font ptmr7t!
-Missing character: There is no µ in font ptmr7t!
-Missing character: There is no Œ in font ptmr7t!
-Missing character: There is no µ in font ptmr7t!
- [16
-
- </home/abc/Allprojects/project_report/System_Modelling/image6.png> </home/abc/
-Allprojects/project_report/System_Modelling/image7.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 243--243
- |[]\OT1/ptm/b/n/14.4 Substrates |
- []
-
-[17
+] [17
 
 ]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
 
-</home/abc/Allprojects/project_report/System_Modelling/image8.png, id=89, 257.4
+</home/abc/Allprojects/project_report/System_Modelling/image8.png, id=87, 257.4
 1112pt x 118.55528pt>
 File: /home/abc/Allprojects/project_report/System_Modelling/image8.png Graphic 
 file (type png)
 
 <use /home/abc/Allprojects/project_report/System_Modelling/image8.png>
 Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
-image8.png used on input line 279.
+image8.png used on input line 209.
 (pdftex.def)             Requested size: 257.41048pt x 118.55498pt.
  [18 </home/abc/Allprojects/project_report/System_Modelling/image8.png>] [19
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
@@ -918,61 +862,42 @@ Missing character: There is no ì in font ptmr7t!
 [20
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
 Missing character: There is no Œ in font ptmr7t!
 Missing character: There is no î in font ptmr7t!
 
-</home/abc/Allprojects/project_report/System_Modelling/image9.png, id=100, 282.
-58382pt x 210.31383pt>
+</home/abc/Allprojects/project_report/System_Modelling/image9.png, id=98, 282.5
+8382pt x 210.31383pt>
 File: /home/abc/Allprojects/project_report/System_Modelling/image9.png Graphic 
 file (type png)
 
 <use /home/abc/Allprojects/project_report/System_Modelling/image9.png>
 Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
-image9.png used on input line 347.
+image9.png used on input line 281.
 (pdftex.def)             Requested size: 291.31035pt x 216.81pt.
-Missing character: There is no Œ in font ptmr7t!
-Missing character: There is no µ in font ptmr7t!
-Missing character: There is no Œ in font ptmr7t!
-Missing character: There is no µ in font ptmr7t!
-Missing character: There is no Œ in font ptmr7t!
-Missing character: There is no µ in font ptmr7t!
-Missing character: There is no Œ in font ptmr7t!
-Missing character: There is no µ in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no à in font ptmr7t!
-Missing character: There is no Ü in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no à in font ptmr7t!
-Missing character: There is no Ü in font ptmr7t!
- [21]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no à in font ptmr7t!
-Missing character: There is no Ü in font ptmr7t!
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Missing character: There is no Œ in font ptmr7t!
 Missing character: There is no µ in font ptmr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--396
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+[21] [22 </home/abc/Allprojects/project_report/System_Modelling/image9.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 377--378
 
  []
 
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
-[22 </home/abc/Allprojects/project_report/System_Modelling/image9.png>]
-</home/abc/Allprojects/project_report/System_Modelling/image10.png, id=109, 273
-.65157pt x 153.47224pt>
-File: /home/abc/Allprojects/project_report/System_Modelling/image10.png Graphic
- file (type png)
-
-<use /home/abc/Allprojects/project_report/System_Modelling/image10.png>
-Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
-image10.png used on input line 429.
-(pdftex.def)             Requested size: 386.59201pt x 216.81pt.
-
+[23]
 </home/abc/Allprojects/project_report/System_Modelling/image11.png, id=110, 265
 .53134pt x 185.95314pt>
 File: /home/abc/Allprojects/project_report/System_Modelling/image11.png Graphic
@@ -980,13 +905,12 @@ File: /home/abc/Allprojects/project_report/System_Modelling/image11.png Graphic
 
 <use /home/abc/Allprojects/project_report/System_Modelling/image11.png>
 Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
-image11.png used on input line 442.
+image11.png used on input line 422.
 (pdftex.def)             Requested size: 309.61697pt x 216.81pt.
-
-[23 </home/abc/Allprojects/project_report/System_Modelling/image10.png>]
 Missing character: There is no Œ in font ptmr7t!
 Missing character: There is no ª in font ptmr7t!
 
+[24 </home/abc/Allprojects/project_report/System_Modelling/image11.png>]
 </home/abc/Allprojects/project_report/System_Modelling/image12.png, id=115, 284
 .20787pt x 133.17169pt>
 File: /home/abc/Allprojects/project_report/System_Modelling/image12.png Graphic
@@ -994,21 +918,13 @@ File: /home/abc/Allprojects/project_report/System_Modelling/image12.png Graphic
 
 <use /home/abc/Allprojects/project_report/System_Modelling/image12.png>
 Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
-image12.png used on input line 454.
+image12.png used on input line 434.
 (pdftex.def)             Requested size: 462.75601pt x 216.81pt.
 
-Overfull \hbox (45.92313pt too wide) in paragraph at lines 454--455
+Overfull \hbox (45.92313pt too wide) in paragraph at lines 434--435
  [][] 
  []
 
-[24 </home/abc/Allprojects/project_report/System_Modelling/image11.png> </home/
-abc/Allprojects/project_report/System_Modelling/image12.png>]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
@@ -1016,57 +932,76 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
 
-</home/abc/Allprojects/project_report/System_Modelling/image13.png, id=121, 286
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
+
+ []
+
+[25 </home/abc/Allprojects/project_report/System_Modelling/image12.png>]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 458--462
+
+ []
+
+
+</home/abc/Allprojects/project_report/System_Modelling/image13.png, id=120, 286
 .64394pt x 144.54pt>
 File: /home/abc/Allprojects/project_report/System_Modelling/image13.png Graphic
  file (type png)
 
 <use /home/abc/Allprojects/project_report/System_Modelling/image13.png>
 Package pdftex.def Info: /home/abc/Allprojects/project_report/System_Modelling/
-image13.png used on input line 477.
+image13.png used on input line 469.
 (pdftex.def)             Requested size: 429.98671pt x 216.81pt.
 
-Overfull \hbox (13.15382pt too wide) in paragraph at lines 477--478
+Overfull \hbox (13.15382pt too wide) in paragraph at lines 469--470
  [][] 
  []
 
-[25] [26 </home/abc/Allprojects/project_report/System_Modelling/image13.png>]
-[27
+[26] [27 </home/abc/Allprojects/project_report/System_Modelling/image13.png>])
+(./ch4.tex [28
 
-] [28
+]) [29
+
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 530--531
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 533--534
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-[29
+[30
 
 ] (./template.aux) ) 
 Here is how much of TeX's memory you used:
- 4933 strings out of 493054
- 75781 string characters out of 6140586
+ 4934 strings out of 493054
+ 75004 string characters out of 6140586
  152156 words of memory out of 5000000
- 8287 multiletter control sequences out of 15000+600000
- 25514 words of font info for 55 fonts, out of 8000000 for 9000
+ 8274 multiletter control sequences out of 15000+600000
+ 30286 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,9n,38p,1317b,286s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,9n,38p,1085b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.
-pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texmf-d
-ist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/tim
-es/utmri8a.pfb>
-Output written on template.pdf (33 pages, 475723 bytes).
+are/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/shar
+e/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/texmf-dist/fonts/type1
+/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
+/usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on template.pdf (34 pages, 417288 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 170 PDF objects out of 1000 (max. 8388607)
+ 105 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
